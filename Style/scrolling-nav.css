@@ -28,15 +28,19 @@ a:hover{
   text-decoration: none; 
 }
 
-.skills-list{
-    display: grid;
-    grid-template-columns: repeat(4, minmax(140px, 200px));
-    padding: 0;
-    margin: auto;
-    overflow: hidden;
-    list-style: disc;
-    grid-gap: 25px;
-    padding: 25px;
+ul.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  padding: 25px;
+  margin: 20px 0 0 0;
+  overflow: hidden;
+  list-style: disc;
+}
+
+ul.skills-list.li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
 }
 
 #experince , #head , #work , #contact , #about{
