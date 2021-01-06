@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+body{
+  font-family: 'Mulish', sans-serif;
+  background-color: #16161a;
+  color: azure;
+}
+
+header {
+  padding: 156px 0 100px;
+  color:#fffffe;
+}
+
+section {
+  padding: 150px 0;
+}
+
+button{
+  color:#7f5af0;
+}
+
+a{
+  color: #2cb67d;
+}
+
+a:hover{
+  color: #7f5af0; 
+  text-decoration: none; 
+}
+
+.skills-list{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(140px, 200px));
+    padding: 0;
+    margin: auto;
+    overflow: hidden;
+    list-style: disc;
+    grid-gap: 25px;
+    padding: 25px;
+}
+
+#experince , #head , #work , #contact , #about{
+  padding : 20px 15px 20px 15px ;
+}
+
+.skills{
+  padding-top: 70px;
+}
+
+.profile-picture{
+  width: 300px;
+}
+
+#role{
+  padding-left: 20px;
+}
+
+.project-stack{
+  float: right;
+}
